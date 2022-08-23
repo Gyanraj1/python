@@ -1,0 +1,7 @@
+def myFunc(e):
+  return e[1]
+
+lst = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+lst.sort(key=myFunc)
+
+print("Result :",lst)
