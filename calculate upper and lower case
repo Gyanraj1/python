@@ -1,0 +1,13 @@
+def sample_string(s):
+    c={"UPPER_CASE":0, "LOWER_CASE":0}
+    for i in s:
+        if i.isupper():
+           c["UPPER_CASE"]+=1
+        elif i.islower():
+           c["LOWER_CASE"]+=1
+        else:
+           pass
+    print ("No. of Upper case characters : ", c["UPPER_CASE"])
+    print ("No. of Lower case Characters : ", c["LOWER_CASE"])
+
+sample_string('The quick Brow Fox')
