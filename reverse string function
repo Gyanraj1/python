@@ -1,0 +1,7 @@
+def reverse(string):
+    string = list(string)
+    string.reverse()
+    return "".join(string)
+ 
+sample_string = "1234abcd"
+print(reverse(sample_string))
