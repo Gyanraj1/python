@@ -1,0 +1,2 @@
+sample_input = lambda x : x + 25
+print(sample_input(10))
