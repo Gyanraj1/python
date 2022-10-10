@@ -1,0 +1,15 @@
+
+import random
+
+x = True 
+while x :
+    print(random.randint(1, 6))
+   
+   Roll_dice = input("Roll Your Dice (Y/N) :")
+   
+   if Roll_dice.lower() == "y" :
+        continue
+    
+    else :
+        break
+        
